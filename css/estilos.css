@@ -1,13 +1,19 @@
 /*********** INDEX ************/
 
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
+
 body {
     padding: 0;
     margin: 0;
 }
 
+.fuente {
+    font-family: 'Handjet', cursive;
+}
+
 /************ HEADER ***********/
 
-.logo {
+.logoNav {
     width: 120px;
     cursor: pointer;
 }
@@ -24,20 +30,56 @@ header {
 .nombreDelEquipo {
     color: #B5911D;
     text-align: left;
+    justify-content: center;
+    width: 250px;
+    margin: 0;
+    font-size: 50px;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
 }
 
 .menuDeNavegacion {
     list-style: none;
-    padding-left: 150px;
+    padding-left: 15rem;
+    margin-bottom: 0;
+    justify-content: center;
 }
 
 .menu {
     color: #B5911D;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: uppercase;
     display: inline-block;
     padding: 0px 20px;
+}
+
+.inicio:hover {
+    border: #B5911D 5px solid;
+    font-size: 38px;
+}
+
+.tienda:hover {
+    border: #B5911D 5px solid;
+    font-size: 38px;
+}
+
+.equipos:hover {
+    border: #B5911D 5px solid;
+    font-size: 38px;
+}
+
+.eventos:hover {
+    border: #B5911D 5px solid;
+    font-size: 38px;
+}
+
+.contacto:hover {
+    border: #B5911D 5px solid;
+    font-size: 38px;
 }
 
 
@@ -123,17 +165,23 @@ h2 {
 footer {
     background-color: black;
     border-top: 5px solid #B5911D;
+    margin-bottom: 0;
 }
 
 .pieDePagina {
     color: #B5911D;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin: 0;
 }
 
+.logoFooter {
+    width: 70px;
+    cursor: pointer;
+    padding-left: 0px;
+}
 
+.iconoRedesSociales {
+    width: auto;
+    height: 50px;
+}
 
 
 /************ TIENDA *************/
