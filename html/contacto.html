@@ -8,15 +8,19 @@
     <link rel="shortcut icon" href="../img/logo-solo.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
-<body>
-    <header>
+<body class="fuente">
 
+    <!-- NAVBAR -->
+    <header>
         <a href="../index.html">
-            <img src="../img/logo-solo.png" alt="Logo del equipo" class="logo">
+            <img src="../img/logo-completo.png" alt="Logo del equipo" class="logoNav">
         </a>
-        <h1 class="nombreDelEquipo">Nombre del equipo</h1>
+        <h1 class="nombreDelEquipo">Team Canelita</h1>
 
         <nav>
             <ul class="menuDeNavegacion">
@@ -31,7 +35,9 @@
     </header>
 
     <main>
-        <h2>Contactanos</h2>
+
+        <!-- CONTACTO -->
+        <h2 class="subtitulos">Contactanos</h2>
         <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sunt neque quam eum
             pariatur aperiam
             saepe harum corporis deleniti quaerat voluptatibus labore molestiae perspiciatis id tempora ad, mollitia
@@ -40,6 +46,7 @@
             blanditiis exercitationem, suscipit debitis sunt pariatur accusamus! Recusandae libero ipsa officia nihil
             nobis odit? Veritatis, dolore.</p>
 
+        <!-- FORMULARIO DE CONTACTO -->
         <form class="formulario">
 
             <label class="consigna" for="nombre">Nombre</label>
@@ -60,28 +67,43 @@
             <input class="btnFormulario" type="reset">
         </form>
 
+        <!-- OTRAS VIAS DE CONTACTO -->
         <h3 class="viasDeContacto">Otras vias de contacto</h3>
         <div class="viasContacto">
             <img src="../img/mail.png" alt="E-mail del equipo">
             <img src="../img/whatsapp.png" alt="Whatsapp del equipo">
         </div>
-
-        <h3 class="viasDeContacto">Redes sociales</h3>
-
-        <div class="redesSociales">
-            <img src="../img/facebook.png" alt="Logo de Facebook">
-            <img src="../img/instagram.png" alt="Logo de Instagram">
-            <img src="../img/twitter.png" alt="Logo de Twitter">
-            <img src="../img/twitch.png" alt="Logo de Twitch">
-        </div>
-
     </main>
 
-    <footer>
-        <p class="pieDePagina">Nombre del equipo - Todos los derechos reservados</p>
+    <!-- Pie de página -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="../index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1 ms-4">
+                <img src="../img/logo-solo.png" alt="logo" class="logoFooter">
+                <svg class="bi" width="30" height="24"></svg>
+            </a>
+            <span class="mb-3 mb-md-0 pieDePagina">© 2023 Team Canelita</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.twitter.com" target="_blank">
+                    <img src="../img/twitter.png" alt="Twitter" class="iconoRedesSociales">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com" target="_blank">
+                    <img src="../img/facebook.png" alt="Facebook" class="iconoRedesSociales">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com" target="_blank">
+                    <img src="../img/instagram.png" alt="Instagram" class="iconoRedesSociales">
+                </a></li>
+            <li class="ms-3 me-4"><a class="text-body-secondary" href="https://www.twitch.tv" target="_blank">
+                    <img src="../img/twitch.png" alt="Twitch" class="iconoRedesSociales">
+                </a></li>
+        </ul>
     </footer>
-
-
+    <!-- js-bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

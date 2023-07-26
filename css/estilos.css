@@ -112,6 +112,10 @@ h2 {
     border-top: 3px #B5911D ridge;
 }
 
+.subtitulos {
+    font-size: 80px;
+}
+
 .descripcion {
     text-indent: 15px;
     margin: 10px;
@@ -232,13 +236,13 @@ footer {
 }
 
 .logoValorant {
-    height: 100px;
-    padding-top: 100px;
+    height: 200px;
+    padding-top: 50px;
 }
 
 .logoBrawl {
-    height: 250px;
-    padding-top: 100px;
+    height: 300px;
+    padding-top: 50px;
 }
 
 .jugadores {
