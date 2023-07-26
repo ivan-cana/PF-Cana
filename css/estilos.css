@@ -1,0 +1,321 @@
+/*********** INDEX ************/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/************ HEADER ***********/
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    border-bottom: 5px solid #B5911D;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nombreDelEquipo {
+    color: #B5911D;
+    text-align: left;
+}
+
+.menuDeNavegacion {
+    list-style: none;
+    padding-left: 150px;
+}
+
+.menu {
+    color: #B5911D;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+/************* MAIN ************/
+
+main {
+    background-color: #FEF8F6;
+    padding-bottom: 1px;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    border: #B5911D 5px solid;
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.imgCarrusel {
+    width: 100%;
+}
+
+h2 {
+    margin: 0%;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    border-top: 3px #B5911D ridge;
+}
+
+.descripcion {
+    text-indent: 15px;
+    margin: 10px;
+    padding: 10px 40px;
+    font-size: 22px;
+}
+
+
+.noticia {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.noticia img {
+    display: flex;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.noticiaTitulo {
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+.noticiaCuerpo {
+    text-indent: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+.video {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.patrocinadores {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+/*********** FOOTER ***********/
+
+footer {
+    background-color: black;
+    border-top: 5px solid #B5911D;
+}
+
+.pieDePagina {
+    color: #B5911D;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+
+
+
+/************ TIENDA *************/
+
+.promocion {
+    display: flex;
+    justify-content: center;
+}
+
+.promocionImg {
+    width: 900px;
+    padding-bottom: 10px;
+}
+
+.ropa {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.ropaImg {
+    width: 400px;
+    padding-top: 30px;
+}
+
+.accesorios{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.accesoriosImg {
+    width: 200px;
+    padding-top: 30px;
+}
+
+
+/************* EQUIPOS *************/
+
+.logoJuegos {
+    text-align: center;
+    margin-top: 50px;
+    border-top: #B5911D solid 5px;
+}
+
+.logoValorant {
+    height: 100px;
+    padding-top: 100px;
+}
+
+.logoBrawl {
+    height: 250px;
+    padding-top: 100px;
+}
+
+.jugadores {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding-left: 100px;
+}
+
+.descripcionDelJugador {
+    display: flex;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.infoDelJugador {
+    padding-left: 10px;
+}
+
+
+/************* EVENTOS **************/
+
+.calendario {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+.mes{
+    list-style: none;
+    font-size: 30px;
+    border: #B5911D 5px solid;
+    border-radius: 20%;
+    color: rgb(206, 201, 201);
+    background-color: black;
+    padding: 20px;
+}
+
+.encuadro {
+    margin: 100px;
+    border: #B5911D solid 5px;
+    border-radius: 10px
+}
+
+.partido {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: #B5911D;
+}
+
+.equipos {
+    display: flex;
+    justify-content: center;
+}
+
+.enfrentamiento {
+    display: flex;
+}
+
+.enfrentamientoEquipos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.enfrentamientoInfo {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+/************* CONTACTO *************/
+
+.formulario {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.consigna {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.campo {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: #B5911D solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btnFormulario {
+    background-color: black;
+    border: #B5911D solid 2px;
+    color: rgb(206, 201, 201);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.viasDeContacto {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    text-decoration: underline;
+    text-decoration-color: #B5911D;
+    font-size: 30px;
+}
+
+.viasContacto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
