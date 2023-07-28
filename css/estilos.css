@@ -201,16 +201,65 @@ footer {
 }
 
 .ropa {
+    margin-bottom: 50px;
+}
+
+.seccionTienda {
     display: flex;
     justify-content: space-evenly;
-    margin: 0%;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    border: #B5911D 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.cartaInfo {
+    justify-content: center;
+    text-align: center;
+}
+
+.imgRopa {
+    height: auto;
+    width: 100%;
+}
+
+.imgAccesorios {
+    height: 230px;
+    width: auto;
+}
+
+
+.cartaTitulo {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+}
+
+.cartaPrecio {
+    display: block;
+    font-size: 30px;
+}
+
+.btnCompra {
+    background-color: #B5911D;
+    color: #FEF8F6;
+    border: none;
+    width: 150px;
+    height: auto;
     font-size: 25px;
 }
 
-.ropaImg {
-    width: 400px;
-    padding-top: 30px;
+.btnCompra:hover {
+    background-color: #d4b44a;
 }
 
 .accesorios{
