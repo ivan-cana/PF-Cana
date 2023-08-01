@@ -126,6 +126,12 @@ h2 {
     margin-left: 10px;
 }
 
+.noticiaRecuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .noticiaTitulo {
     padding-left: 80px;
     font-size: 30px;
