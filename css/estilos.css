@@ -81,8 +81,9 @@ main {
 }
 
 .carrusel {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: 1fr 1fr 1fr;
     border: #B5911D 5px solid;
     border-top: none;
     border-top-left-radius: 0px;
@@ -122,7 +123,7 @@ h2 {
 
 .noticia img {
     display: flex;
-    width: 400px;
+    width: 25%;
     margin-left: 10px;
 }
 
@@ -446,7 +447,7 @@ footer {
 
 /* CELULARES */
 
-@media (max-width:480px) {
+@media (max-width:767px) {
 
     /* Navbar */
 
@@ -479,6 +480,10 @@ footer {
     /* Inicio */
 
     /* carrusel */
+
+    .carrusel {
+        display: flex;
+    }
 
     .dos,
     .tres {
@@ -716,9 +721,24 @@ footer {
 
 /* TABLETS Y PORTATILES */
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1140px) {
+
+    /* NAVBAR */
+    .logoNav {
+        width: 200px;
+    }
 
     /* FOOTER */
+
+    .logoFooter {
+        width: 60px;
+        height: auto;
+    }
+
+    .pieDePagina {
+        font-size: 10px;
+    }
+
     .iconoRedesSociales {
         width: 40px;
         height: auto;
@@ -729,6 +749,7 @@ footer {
     /* carrusel */
 
     .carrusel {
+        display: flex;
         width: 100%;
         height: auto;
     }
