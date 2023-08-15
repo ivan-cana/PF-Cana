@@ -7,7 +7,7 @@
                         width: 150px;
                     }
                 }
-                
+
                 div {
                     ul {
                         li {
@@ -270,7 +270,7 @@
 
 }
 
-@media (min-width: $mobile-breakpoint + 1px) and (max-width:$tablet-breakpoint) {
+@media (min-width: #{$mobile-breakpoint + 1px}) and (max-width: #{$tablet-breakpoint}) {
     header {
         nav {
             div {
