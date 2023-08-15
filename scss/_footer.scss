@@ -1,0 +1,25 @@
+footer {
+	background-color: $background-color_4;
+	border-top: 5px solid #B5911D;
+	margin-bottom: 0;
+	div {
+		.pieDePagina {
+			color: $background-color_2;
+		}
+		a {
+			.logoFooter {
+				width: 70px;
+				cursor: pointer;
+				padding-left: 0px;
+			}
+		}
+	}
+	ul {
+		li {
+			.iconoRedesSociales {
+				width: auto;
+				height: 50px;
+			}
+		}
+	}
+}

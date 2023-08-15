@@ -1,0 +1,10 @@
+@mixin descripcionConParametros ($sangria, $margen, $padding, $size){
+    text-indent: $sangria;
+    margin: $margen;
+    padding: $padding;
+    font-size: $size;
+}
+
+.descripcion {
+    @include descripcionConParametros(15px, 10px, 10px 40px, 22px)
+}

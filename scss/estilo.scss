@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
+
+.fuente {
+    font-family: 'Handjet', cursive;
+}
+
+@import "variables";
+@import "header";
+@import "footer";
+@import "general";
+@import "mixin";
+@import "responsive";

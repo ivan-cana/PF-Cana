@@ -1,0 +1,47 @@
+header {
+	display: flex;
+	background-color: $background-color_4;
+	border-bottom: 5px solid #B5911D;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	.logoNav {
+		width: 350px;
+		height: auto;
+		cursor: pointer;
+	}
+	.navbar {
+		background-color: $background-color_4;
+	}
+	nav {
+		height: 100%;
+		width: 100%;
+		div {
+			div {
+				ul {
+					li {
+						.menu {
+							color: $background-color_2;
+							text-decoration: none;
+							font-size: 30px;
+							text-transform: uppercase;
+							display: inline-block;
+							padding: 0px 20px;
+								&:hover {
+									border: #B5911D 5px solid;
+									font-size: 38px;
+								}
+						}
+					}
+				}
+			}
+			button {
+				.btnNavbar {
+					border: #B5911D 1px solid;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+}
+

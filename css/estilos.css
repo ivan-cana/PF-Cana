@@ -1,836 +1,595 @@
-/*********** INDEX ************/
-
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap");
 .fuente {
-    font-family: 'Handjet', cursive;
-}
-
-/************ HEADER ***********/
-
-.logoNav {
-    width: 350px;
-    height: auto;
-    cursor: pointer;
+  font-family: "Handjet", cursive;
 }
 
 header {
-    display: flex;
-    background-color: black;
-    border-bottom: 5px solid #B5911D;
-    align-items: center;
-    position: sticky;
-    top: 0;
+  display: flex;
+  background-color: black;
+  border-bottom: 5px solid #B5911D;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
-
-.nombreDelEquipo {
-    color: #B5911D;
-    text-align: left;
-    justify-content: center;
-    width: auto;
-    margin: 0;
-    font-size: 50px;
-    text-decoration: none;
+header .logoNav {
+  width: 350px;
+  height: auto;
+  cursor: pointer;
 }
-
-.navbar {
-    background-color: black;
+header .navbar {
+  background-color: black;
 }
-
-nav {
-    height: 100%;
-    width: 100%;
+header nav {
+  height: 100%;
+  width: 100%;
 }
-
-.menuDeNavegacion {
-    list-style: none;
-    padding-left: 15rem;
-    margin-bottom: 0;
-    justify-content: center;
+header nav div div ul li .menu {
+  color: #B5911D;
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0px 20px;
 }
-
-.menu {
-    color: #B5911D;
-    text-decoration: none;
-    font-size: 30px;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 0px 20px;
+header nav div div ul li .menu:hover {
+  border: #B5911D 5px solid;
+  font-size: 38px;
 }
-
-.btnNavbar {
-    border: #B5911D 1px solid;
-    border-radius: 5px;
+header nav div button .btnNavbar {
+  border: #B5911D 1px solid;
+  border-radius: 5px;
 }
-
-.menu:hover {
-    border: #B5911D 5px solid;
-    font-size: 38px;
-}
-
-/************* MAIN ************/
-
-main {
-    background-color: #FEF8F6;
-    padding-bottom: 1px;
-}
-
-.carrusel {
-    display: grid;
-    /* justify-content: center; */
-    grid-template-columns: 1fr 1fr 1fr;
-    border: #B5911D 5px solid;
-    border-top: none;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-
-.imgCarrusel {
-    width: 100%;
-}
-
-h2 {
-    margin: 0%;
-    padding-top: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 50px;
-    border-top: 3px #B5911D ridge;
-}
-
-.subtitulos {
-    font-size: 80px;
-}
-
-.descripcion {
-    text-indent: 15px;
-    margin: 10px;
-    padding: 10px 40px;
-    font-size: 22px;
-}
-
-
-.noticia {
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.noticia img {
-    display: flex;
-    width: 25%;
-    margin-left: 10px;
-}
-
-.noticiaRecuadro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.noticiaTitulo {
-    padding-left: 80px;
-    font-size: 30px;
-}
-
-.noticiaCuerpo {
-    text-indent: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 18px;
-}
-
-.video {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 200px;
-    margin-top: 50px;
-}
-
-
-.videoUno {
-    width: 570px;
-    height: 325px;
-    border: #B5911D 5px solid;
-}
-
-.videoDos {
-    width: 570px;
-    height: 325px;
-    border: #B5911D 5px solid;
-}
-
-.patrocinadores {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-
-
-/*********** FOOTER ***********/
 
 footer {
-    background-color: black;
-    border-top: 5px solid #B5911D;
-    margin-bottom: 0;
+  background-color: black;
+  border-top: 5px solid #B5911D;
+  margin-bottom: 0;
+}
+footer div .pieDePagina {
+  color: #B5911D;
+}
+footer div a .logoFooter {
+  width: 70px;
+  cursor: pointer;
+  padding-left: 0px;
+}
+footer ul li .iconoRedesSociales {
+  width: auto;
+  height: 50px;
 }
 
-.pieDePagina {
-    color: #B5911D;
+main {
+  background-color: #FEF8F6;
+  padding-bottom: 1px;
 }
-
-.logoFooter {
-    width: 70px;
-    cursor: pointer;
-    padding-left: 0px;
+main .carrusel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: #B5911D 5px solid;
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
-
-.iconoRedesSociales {
-    width: auto;
-    height: 50px;
+main .carrusel .imgCarrusel {
+  width: 100%;
 }
-
-
-/************ TIENDA *************/
-
-.promocion {
-    display: flex;
-    justify-content: center;
+main h2 {
+  margin: 0%;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  border-top: 3px #B5911D ridge;
 }
-
-.promocionImg {
-    width: 900px;
-    padding-bottom: 10px;
+main .subtitulos {
+  font-size: 80px;
 }
-
-.ropa {
-    margin-bottom: 50px;
+main .descripcion {
+  text-indent: 15px;
+  margin: 10px;
+  padding: 10px 40px;
+  font-size: 22px;
 }
-
-.seccionTienda {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
+main .noticia {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
-.carta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 420px;
-    border: #B5911D 2px solid;
-    border-radius: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+main .noticia .img {
+  display: flex;
+  width: 25%;
+  margin-left: 10px;
 }
-
-.cartaInfo {
-    justify-content: center;
-    text-align: center;
+main .noticia .noticiaRecuadro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-.imgRopa {
-    height: auto;
-    width: 80%;
+main .noticia .noticiaRecuadro .noticiaTitulo {
+  padding-left: 80px;
+  font-size: 30px;
 }
-
-.imgAccesorios {
-    height: 230px;
-    width: auto;
+main .noticia .noticiaRecuadro .noticiaCuerpo {
+  text-indent: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
 }
-
-
-.cartaTitulo {
-    display: block;
-    width: 100%;
-    font-size: 35px;
+main .video {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+  margin-top: 50px;
 }
-
-.cartaPrecio {
-    display: block;
-    font-size: 30px;
+main .video .videoUno {
+  width: 570px;
+  height: 325px;
+  border: #B5911D 5px solid;
 }
-
-.btnCompra {
-    background-color: #B5911D;
-    color: #FEF8F6;
-    border: none;
-    width: 150px;
-    height: auto;
-    font-size: 25px;
+main .video .videoDos {
+  width: 570px;
+  height: 325px;
+  border: #B5911D 5px solid;
+}
+main .patrocinadores {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+main .promocion {
+  display: flex;
+  justify-content: center;
+}
+main .promocion .promocionImg {
+  width: 900px;
+  padding-bottom: 10px;
+}
+main .ropa {
+  margin-bottom: 50px;
+}
+main .seccionTienda {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+main .seccionTienda .carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 420px;
+  border: #B5911D 2px solid;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+main .seccionTienda .carta .cartaInfo {
+  justify-content: center;
+  text-align: center;
+}
+main .seccionTienda .carta .cartaInfo .cartaTitulo {
+  display: block;
+  width: 100%;
+  font-size: 35px;
+}
+main .seccionTienda .carta .cartaInfo .cartaPrecio {
+  display: block;
+  font-size: 30px;
+}
+main .seccionTienda .carta .cartaInfo div .btnCompra {
+  background-color: #B5911D;
+  color: #FEF8F6;
+  border: none;
+  width: 150px;
+  height: auto;
+  font-size: 25px;
+}
+main .seccionTienda .carta .cartaInfo div .btnCompra:hover {
+  background-color: #d4b44a;
+}
+main .seccionTienda .carta .imgRopa {
+  height: auto;
+  width: 80%;
+}
+main .seccionTienda .carta .imgAccesorios {
+  height: 230px;
+  width: auto;
+}
+main .logoJuegos {
+  text-align: center;
+  margin-top: 50px;
+  border-top: #B5911D solid 5px;
+}
+main .logoJuegos .logoValorant {
+  height: 200px;
+  margin-top: 50px;
+}
+main .logoJuegos .logoBrawl {
+  height: 300px;
+  margin-top: 50px;
+}
+main .jugadores {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding-left: 100px;
+}
+main .jugadores .descripcionDelJugador {
+  display: flex;
+  width: 50%;
+  margin-bottom: 10px;
+}
+main .jugadores .descripcionDelJugador .infoDelJugador {
+  padding-left: 10px;
+}
+main .calendario {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: space-evenly;
+}
+main .calendario .mes {
+  list-style: none;
+  font-size: 30px;
+  border: #B5911D 5px solid;
+  border-radius: 20%;
+  color: rgb(206, 201, 201);
+  background-color: black;
+  padding: 20px;
+}
+main .encuadro {
+  margin: 100px;
+  border: #B5911D solid 5px;
+  border-radius: 10px;
+}
+main .encuadro .partido {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-color: #B5911D;
+}
+main .encuadro .versus {
+  display: flex;
+  justify-content: center;
+}
+main .encuadro .versus .equiposEnfrentados {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main .encuadro .versus .equiposEnfrentados .nombresEquiposEnfrentados {
+  font-size: 30px;
+}
+main .encuadro .versus .enfrentamiento {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  font-size: 25px;
+  align-items: center;
+}
+main .encuadro .enfrentamientoInfo {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+main .formulario {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+main .formulario .consigna {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+main .formulario .campo {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: #B5911D solid 2px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+main .formulario .botonesFormulario .btnFormulario {
+  background-color: black;
+  border: #B5911D solid 2px;
+  color: rgb(206, 201, 201);
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 250px;
+}
+main .viasDeContacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  text-decoration: underline;
+  text-decoration-color: #B5911D;
+  font-size: 30px;
+}
+main .viasContacto {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .btnCompra:hover {
-    background-color: #d4b44a;
+  background-color: #d4b44a;
 }
 
-.accesorios {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0%;
-    padding-bottom: 30px;
+.descripcion {
+  text-indent: 15px;
+  margin: 10px;
+  padding: 10px 40px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  header nav div a .logoNav {
+    width: 150px;
+  }
+  header nav div div ul li .menu {
     font-size: 25px;
-}
-
-.accesoriosImg {
-    width: 200px;
-    padding-top: 30px;
-}
-
-
-/************* EQUIPOS *************/
-
-.logoJuegos {
-    text-align: center;
-    margin-top: 50px;
-    border-top: #B5911D solid 5px;
-}
-
-.logoValorant {
-    height: 200px;
-    margin-top: 50px;
-}
-
-.logoBrawl {
-    height: 300px;
-    margin-top: 50px;
-}
-
-.jugadores {
+  }
+  footer div a .logoFooter {
+    width: 40px;
+    height: auto;
+  }
+  footer div a .pieDePagina {
+    font-size: 10px;
+  }
+  footer ul li .iconoRedesSociales {
+    width: 20px;
+    height: auto;
+  }
+  main .carrusel {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding-left: 100px;
-}
-
-.descripcionDelJugador {
-    display: flex;
-    width: 50%;
-    margin-bottom: 10px;
-}
-
-.infoDelJugador {
+  }
+  main .carrusel .dos {
+    display: none;
+  }
+  main .subtitulos {
+    font-size: 40px;
+  }
+  main .descripcion {
+    font-size: 15px;
+    margin: 0;
     padding-left: 10px;
-}
-
-
-/************* EVENTOS **************/
-
-.calendario {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    justify-content: space-evenly;
-}
-
-.mes {
-    list-style: none;
-    font-size: 30px;
-    border: #B5911D 5px solid;
-    border-radius: 20%;
-    color: rgb(206, 201, 201);
-    background-color: black;
-    padding: 20px;
-}
-
-.encuadro {
-    margin: 100px;
-    border: #B5911D solid 5px;
-    border-radius: 10px
-}
-
-.partido {
+    padding-right: 10px;
+  }
+  main .noticia {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 25px;
-    text-decoration: underline;
-    text-decoration-color: #B5911D;
-}
-
-.versus {
+  }
+  main .noticia .img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 10px;
+  }
+  main .noticia .noticiaRecuadro .noticiaTitulo {
+    padding: 0;
+    padding-top: 20px;
+  }
+  main .noticia .noticiaRecuadro .noticiaCuerpo {
+    font-size: 15px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  main .video {
+    margin-bottom: 70px;
+  }
+  main .video .videoUno {
     display: flex;
     justify-content: center;
-}
-
-.equiposEnfrentados {
-    display: flex;
+    width: 300px;
+    height: auto;
+    border: none;
+  }
+  main .video .videoDos {
+    display: none;
+  }
+  main .patrocinadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  main .patrocinadores .patrocinadoresImg {
+    width: 80%;
+    height: auto;
+  }
+  main .promocion .promocionImg {
+    width: 100%;
+    height: auto;
+  }
+  main .seccionTienda {
+    display: block;
+    height: 80%;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  main .seccionTienda .carta {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  main .seccionTienda .carta .cartaInfo .cartaTitulo {
+    font-size: 30px;
+  }
+  main .seccionTienda .carta .cartaInfo .cartaPrecio {
+    font-size: 25px;
+  }
+  main .logoJuegos {
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  main .logoJuegos .logoValorant {
+    width: 100%;
+    height: auto;
+  }
+  main .logoJuegos .logoBrawl {
+    width: 100%;
+    height: auto;
+  }
+  main .jugadores {
+    display: block;
+    padding-left: 10px;
+  }
+  main .jugadores .descripcionDelJugador {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  main .jugadores .descripcionDelJugador .fotoJugador {
+    width: 50%;
+    height: auto;
+  }
+  main .jugadores .descripcionDelJugador .infoDelJugador .listado {
+    padding: 0;
+  }
+  main .calendario {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    grid-gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+    justify-items: center;
+    margin: 0;
+  }
+  main .calendario .mes {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  main .encuadro {
+    margin: 5%;
+  }
+  main .encuadro .versus .equiposEnfrentados {
+    width: 100%;
+    height: auto;
+  }
+  main .encuadro .versus .equiposEnfrentados .nombresEquiposEnfrentados {
+    font-size: 25px;
+  }
+  main .encuadro .enfrentamientoInfo {
     flex-direction: column;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.nombresEquiposEnfrentados {
-    font-size: 30px;
-}
-
-.enfrentamiento {
-    display: flex;
-    justify-content: space-evenly;
-    width: 30%;
-    font-size: 25px;
-    align-items: center;
-}
-
-.enfrentamientoInfo {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 30px;
-}
-
-/************* CONTACTO *************/
-
-.formulario {
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.consigna {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
     font-size: 20px;
-}
-
-.campo {
-    display: block;
+  }
+  main .formulario {
+    margin: 0;
     width: 100%;
-    margin-bottom: 10px;
-    border: #B5911D solid 2px;
-    border-radius: 5px;
-    font-size: 20px;
-}
-
-.btnFormulario {
-    background-color: black;
-    border: #B5911D solid 2px;
-    color: rgb(206, 201, 201);
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 10px;
-    margin-left: 250px;
-}
-
-.viasDeContacto {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    text-decoration: underline;
-    text-decoration-color: #B5911D;
-    font-size: 30px;
-}
-
-.viasContacto {
+  }
+  main .formulario .consigna {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  main .formulario .campo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  main .formulario .botonesFormulario {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 30px;
-
+  }
+  main .formulario .botonesFormulario .btnFormulario {
+    margin: 0;
+  }
+  main .viasContacto {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .tres {
+    display: none;
+  }
 }
-
-.redesSociales {
+@media (min-width: 769px) and (max-width: 1140px) {
+  header nav div a .logoNav {
+    width: 200px;
+  }
+  footer div a .logoFooter {
+    width: 60px;
+    height: auto;
+  }
+  footer div .pieDePagina {
+    font-size: 10px;
+  }
+  footer ul li .iconoRedesSociales {
+    width: 40px;
+    height: auto;
+  }
+  main .carrusel {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  main .carrusel .tres {
+    display: none;
+  }
+  main .carrusel .imgCarrusel {
+    width: 50%;
+    height: auto;
+  }
+  main .noticia .img {
+    width: 25%;
+    height: auto;
+  }
+  main .video .videoDos {
+    display: none;
+  }
+  main .seccionTienda {
+    justify-content: space-evenly;
+  }
+  main .seccionTienda .carta {
+    width: 300px;
+  }
+  main .logoJuegos {
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  main .logoJuegos .logoValorant {
+    width: 100%;
+    height: auto;
+  }
+  main .logoJuegos .logoBrawl {
+    width: 70%;
+    height: auto;
+  }
+  main .jugadores {
+    padding-left: 5%;
+  }
+  main .encuadro .enfrentamientoInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  main .formulario .botonesFormulario {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 80px;
+  }
+  main .formulario .botonesFormulario .btnFormulario {
+    margin: 0;
+  }
 }
 
-
-/************* RESPONSIVE *************/
-
-/* CELULARES */
-
-@media (max-width:767px) {
-
-    /* Navbar */
-
-    .logoNav {
-        width: 150px;
-    }
-
-    .menu {
-        font-size: 25px;
-    }
-
-
-    /* Footer */
-
-    .logoFooter {
-        width: 40px;
-        height: auto;
-    }
-
-    .pieDePagina {
-        font-size: 10px;
-    }
-
-    .iconoRedesSociales {
-        width: 20px;
-        height: auto;
-    }
-
-
-    /* Inicio */
-
-    /* carrusel */
-
-    .carrusel {
-        display: flex;
-    }
-
-    .dos,
-    .tres {
-        display: none;
-    }
-
-
-    /* Nosotros */
-
-    .subtitulos {
-        font-size: 40px;
-    }
-
-    .descripcion {
-        font-size: 15px;
-        margin: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-
-    /* Noticias */
-
-    .noticia {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .noticia img {
-        display: block;
-        width: 80%;
-        height: auto;
-        margin: 10px;
-    }
-
-    .noticiaTitulo {
-        padding: 0;
-        padding-top: 20px;
-    }
-
-    .noticiaCuerpo {
-        font-size: 15px;
-        margin: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-
-    /* Creadores de contenido */
-
-    .video {
-        margin-bottom: 70px;
-    }
-
-    .videoUno {
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        height: auto;
-        border: none;
-    }
-
-    .videoDos {
-        display: none;
-    }
-
-
-    /* Patrocinadores */
-
-    .patrocinadores {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        justify-items: center;
-    }
-
-    .patrocinadoresImg {
-        width: 80%;
-        height: auto;
-    }
-
-
-    /* Tienda */
-
-    /* Promociones */
-    .promocionImg {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Productos */
-    .seccionTienda {
-        display: block;
-        height: 80%;
-        height: auto;
-        margin-bottom: 0;
-        margin-left: 6%;
-        margin-right: 6%;
-    }
-
-    .carta {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .cartaTitulo {
-        font-size: 30px;
-    }
-
-    .cartaPrecio {
-        font-size: 25px;
-    }
-
-
-    /* Equipos */
-
-    .logoJuegos {
-        width: 100%;
-        height: auto;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    .logoValorant {
-        width: 100%;
-        height: auto;
-    }
-
-    .logoBrawl {
-        width: 100%;
-        height: auto;
-    }
-
-    .jugadores {
-        display: block;
-        padding-left: 10px;
-    }
-
-    .descripcionDelJugador {
-        margin-bottom: 20px;
-        width: 100%;
-    }
-
-    .fotoJugador {
-        width: 50%;
-        height: auto;
-    }
-
-    .listado {
-        padding: 0;
-    }
-
-
-
-    /* Eventos */
-
-    .calendario {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        width: 100%;
-        height: auto;
-        grid-gap: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 0;
-        justify-items: center;
-        margin: 0;
-    }
-
-    .mes {
-        width: 100%;
-        height: 40px;
-        padding: 0;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .encuadro {
-        margin: 5%;
-    }
-
-    .equiposEnfrentados {
-        width: 100%;
-        height: auto;
-    }
-
-    .nombresEquiposEnfrentados {
-        font-size: 25px;
-    }
-
-    .enfrentamientoInfo {
-        flex-direction: column;
-        text-align: center;
-        font-size: 20px;
-    }
-
-
-    /* Contacto */
-
-    .formulario {
-        margin: 0;
-        width: 100%;
-    }
-
-    .consigna {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .campo {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .botonesFormulario {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .btnFormulario {
-        margin: 0;
-    }
-
-    .viasContacto {
-        margin-top: 15px;
-        margin-bottom: 20px;
-    }
-}
-
-
-
-/* TABLETS Y PORTATILES */
-
-@media (min-width:768px) and (max-width:1140px) {
-
-    /* NAVBAR */
-    .logoNav {
-        width: 200px;
-    }
-
-    /* FOOTER */
-
-    .logoFooter {
-        width: 60px;
-        height: auto;
-    }
-
-    .pieDePagina {
-        font-size: 10px;
-    }
-
-    .iconoRedesSociales {
-        width: 40px;
-        height: auto;
-    }
-
-    /* INICIO */
-
-    /* carrusel */
-
-    .carrusel {
-        display: flex;
-        width: 100%;
-        height: auto;
-    }
-
-    .tres {
-        display: none;
-    }
-
-    .imgCarrusel {
-        width: 50%;
-        height: auto;
-    }
-
-    /* Noticias */
-
-    .noticia img {
-        width: 25%;
-        height: auto;
-    }
-
-    /* Creadores de contenido */
-
-    .videoDos {
-        display: none;
-    }
-
-
-    /* TIENDA */
-
-    /* ropa */
-
-    .seccionTienda {
-        justify-content: space-evenly;
-    }
-
-    .carta {
-        width: 300px;
-    }
-
-
-    /* EQUIPOS */
-
-    .logoJuegos {
-        width: 100%;
-        height: auto;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    .logoValorant {
-        width: 100%;
-        height: auto;
-    }
-
-    .logoBrawl {
-        width: 70%;
-        height: auto;
-    }
-
-    .jugadores {
-        padding-left: 5%;
-    }
-
-
-    /* EVENTOS */
-
-    .enfrentamientoInfo {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        text-align: center;
-    }
-
-
-    /* CONTACTO */
-
-    .botonesFormulario {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .btnFormulario {
-        margin: 0;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */
