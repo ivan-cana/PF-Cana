@@ -1,5 +1,6 @@
 @media screen and (max-width: $mobile-breakpoint) {
     header {
+        z-index: 2;
         nav {
             div {
                 a {
@@ -46,6 +47,7 @@
     }
 
     main {
+        z-index: 1;
         .carrusel {
             display: flex;
 
@@ -272,6 +274,7 @@
 
 @media (min-width: #{$mobile-breakpoint + 1px}) and (max-width: #{$tablet-breakpoint}) {
     header {
+        z-index: 2;
         nav {
             div {
                 a {
@@ -308,6 +311,7 @@
     }
 
     main {
+        z-index: 1;
         .carrusel {
             display: flex;
             width: 100%;
