@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Team Canelita</title>
+    <title>TC | Contacto</title>
+    <meta name="description" content="Conéctate con nosotros a través de nuestra sección de contacto. Esperamos recibir tus mensajes y ayudarte en todo lo que necesites. Juntos, construyamos el futuro de los juegos competitivos.">
+    <meta name="keywords" content="team canelita, contacto, mensaje">
     <link rel="shortcut icon" href="../img/logo-solo.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="fuente">
@@ -58,7 +62,7 @@
     <main>
 
         <!-- CONTACTO -->
-        <h2 class="subtitulos">Contactanos</h2>
+        <h1 class="subtitulos">Contactanos</h1>
         <p class="descripcion">
             Somos un equipo de jugadores apasionados, listos para llevar la competición al siguiente nivel. Nuestro objetivo es crear una comunidad vibrante y unida, donde el talento y la diversión se unan en cada partida. Si compartes nuestra pasión por los videojuegos y estás ansioso por superar desafíos, ¡entonces eres parte de nuestra familia!
         </p>
@@ -80,7 +84,7 @@
         </p>
 
         <!-- FORMULARIO DE CONTACTO -->
-        <form class="formulario">
+        <form class="formulario" data-aos="zoom-in">
 
             <label class="consigna" for="nombre">Nombre</label>
             <input class="campo" type="text" id="nombre">
@@ -140,6 +144,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

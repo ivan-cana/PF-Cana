@@ -10,6 +10,7 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 header .logoNav {
   width: 350px;
@@ -30,10 +31,6 @@ header nav div div ul li .menu {
   text-transform: uppercase;
   display: inline-block;
   padding: 0px 20px;
-}
-header nav div div ul li .menu:hover {
-  border: #B5911D 5px solid;
-  font-size: 38px;
 }
 header nav div button .btnNavbar {
   border: #B5911D 1px solid;
@@ -61,6 +58,7 @@ footer ul li .iconoRedesSociales {
 main {
   background-color: #FEF8F6;
   padding-bottom: 1px;
+  z-index: 1;
 }
 main .carrusel {
   display: grid;
@@ -72,6 +70,14 @@ main .carrusel {
 }
 main .carrusel .imgCarrusel {
   width: 100%;
+}
+main h1 {
+  margin: 0%;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  border-top: 3px #B5911D ridge;
 }
 main h2 {
   margin: 0%;
@@ -173,10 +179,12 @@ main .seccionTienda .carta .cartaInfo .cartaTitulo {
   display: block;
   width: 100%;
   font-size: 35px;
+  margin: 0;
 }
 main .seccionTienda .carta .cartaInfo .cartaPrecio {
   display: block;
   font-size: 30px;
+  margin: 0;
 }
 main .seccionTienda .carta .cartaInfo div .btnCompra {
   background-color: #B5911D;
@@ -590,6 +598,15 @@ main .viasContacto {
   main .formulario .botonesFormulario .btnFormulario {
     margin: 0;
   }
+}
+.menu {
+  transition: all 0.3s;
+}
+
+.menu:hover {
+  border: #B5911D 5px solid;
+  font-size: 38px;
+  transition: all 0.3s;
 }
 
 /*# sourceMappingURL=estilos.css.map */

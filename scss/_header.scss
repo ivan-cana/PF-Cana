@@ -5,6 +5,7 @@ header {
 	align-items: center;
 	position: sticky;
 	top: 0;
+	z-index: 2;
 	.logoNav {
 		width: 350px;
 		height: auto;
@@ -27,10 +28,6 @@ header {
 							text-transform: uppercase;
 							display: inline-block;
 							padding: 0px 20px;
-								&:hover {
-									border: #B5911D 5px solid;
-									font-size: 38px;
-								}
 						}
 					}
 				}
