@@ -57,7 +57,7 @@ footer ul li .iconoRedesSociales {
 
 main {
   background-color: #FEF8F6;
-  padding-bottom: 1px;
+  padding-bottom: 50px;
   z-index: 1;
 }
 main .carrusel {
@@ -79,14 +79,6 @@ main h1 {
   font-size: 50px;
   border-top: 3px #B5911D ridge;
 }
-main h2 {
-  margin: 0%;
-  padding-top: 40px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 50px;
-  border-top: 3px #B5911D ridge;
-}
 main .subtitulos {
   font-size: 80px;
 }
@@ -96,53 +88,6 @@ main .descripcion {
   padding: 10px 40px;
   font-size: 22px;
 }
-main .noticia {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-main .noticia .img {
-  display: flex;
-  width: 25%;
-  margin-left: 10px;
-}
-main .noticia .noticiaRecuadro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-main .noticia .noticiaRecuadro .noticiaTitulo {
-  padding-left: 80px;
-  font-size: 30px;
-}
-main .noticia .noticiaRecuadro .noticiaCuerpo {
-  text-indent: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 18px;
-}
-main .video {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 200px;
-  margin-top: 50px;
-}
-main .video .videoUno {
-  width: 570px;
-  height: 325px;
-  border: #B5911D 5px solid;
-}
-main .video .videoDos {
-  width: 570px;
-  height: 325px;
-  border: #B5911D 5px solid;
-}
-main .patrocinadores {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
 main .promocion {
   display: flex;
   justify-content: center;
@@ -150,87 +95,6 @@ main .promocion {
 main .promocion .promocionImg {
   width: 900px;
   padding-bottom: 10px;
-}
-main .ropa {
-  margin-bottom: 50px;
-}
-main .seccionTienda {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 50px;
-}
-main .seccionTienda .carta {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  width: 420px;
-  border: #B5911D 2px solid;
-  border-radius: 30px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-main .seccionTienda .carta .cartaInfo {
-  justify-content: center;
-  text-align: center;
-}
-main .seccionTienda .carta .cartaInfo .cartaTitulo {
-  display: block;
-  width: 100%;
-  font-size: 35px;
-  margin: 0;
-}
-main .seccionTienda .carta .cartaInfo .cartaPrecio {
-  display: block;
-  font-size: 30px;
-  margin: 0;
-}
-main .seccionTienda .carta .cartaInfo div .btnCompra {
-  background-color: #B5911D;
-  color: #FEF8F6;
-  border: none;
-  width: 150px;
-  height: auto;
-  font-size: 25px;
-}
-main .seccionTienda .carta .cartaInfo div .btnCompra:hover {
-  background-color: #d4b44a;
-}
-main .seccionTienda .carta .imgRopa {
-  height: auto;
-  width: 80%;
-}
-main .seccionTienda .carta .imgAccesorios {
-  height: 230px;
-  width: auto;
-}
-main .logoJuegos {
-  text-align: center;
-  margin-top: 50px;
-  border-top: #B5911D solid 5px;
-}
-main .logoJuegos .logoValorant {
-  height: 200px;
-  margin-top: 50px;
-}
-main .logoJuegos .logoBrawl {
-  height: 300px;
-  margin-top: 50px;
-}
-main .jugadores {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0px;
-  padding-left: 100px;
-}
-main .jugadores .descripcionDelJugador {
-  display: flex;
-  width: 50%;
-  margin-bottom: 10px;
-}
-main .jugadores .descripcionDelJugador .infoDelJugador {
-  padding-left: 10px;
 }
 main .calendario {
   display: flex;
@@ -247,53 +111,203 @@ main .calendario .mes {
   background-color: black;
   padding: 20px;
 }
-main .encuadro {
+
+section {
+  background-color: #FEF8F6;
+  padding-bottom: 1px;
+  z-index: 1;
+}
+section h2 {
+  margin: 0%;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  border-top: 3px #B5911D ridge;
+}
+section .subtitulos {
+  font-size: 80px;
+}
+section .descripcion {
+  text-indent: 15px;
+  margin: 10px;
+  padding: 10px 40px;
+  font-size: 22px;
+}
+section .noticia {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+section .noticia .img {
+  display: flex;
+  width: 25%;
+  margin-left: 10px;
+}
+section .noticia .noticiaRecuadro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .noticia .noticiaRecuadro .noticiaTitulo {
+  padding-left: 80px;
+  font-size: 30px;
+}
+section .noticia .noticiaRecuadro .noticiaCuerpo {
+  text-indent: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
+}
+section .video {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+section .video .videoUno {
+  width: 570px;
+  height: 325px;
+  border: #B5911D 5px solid;
+}
+section .video .videoDos {
+  width: 570px;
+  height: 325px;
+  border: #B5911D 5px solid;
+}
+section .patrocinadores {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+section .ropa {
+  margin-bottom: 50px;
+}
+section .seccionTienda {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+section .seccionTienda .carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 420px;
+  border: #B5911D 2px solid;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+section .seccionTienda .carta .cartaInfo {
+  justify-content: center;
+  text-align: center;
+}
+section .seccionTienda .carta .cartaInfo .cartaTitulo {
+  display: block;
+  width: 100%;
+  font-size: 35px;
+  margin: 0;
+}
+section .seccionTienda .carta .cartaInfo .cartaPrecio {
+  display: block;
+  font-size: 30px;
+  margin: 0;
+}
+section .seccionTienda .carta .cartaInfo div .btnCompra {
+  background-color: #B5911D;
+  color: #FEF8F6;
+  border: none;
+  width: 150px;
+  height: auto;
+  font-size: 25px;
+}
+section .seccionTienda .carta .cartaInfo div .btnCompra:hover {
+  background-color: #d4b44a;
+}
+section .seccionTienda .carta .imgRopa {
+  height: auto;
+  width: 80%;
+}
+section .seccionTienda .carta .imgAccesorios {
+  height: 230px;
+  width: auto;
+}
+section .logoJuegos {
+  text-align: center;
+  border-top: #B5911D solid 5px;
+}
+section .logoJuegos .logoValorant {
+  height: 200px;
+  margin-top: 50px;
+}
+section .logoJuegos .logoBrawl {
+  height: 300px;
+  margin-top: 50px;
+}
+section .jugadores {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding-left: 100px;
+}
+section .jugadores .descripcionDelJugador {
+  display: flex;
+  width: 50%;
+  margin-bottom: 10px;
+}
+section .jugadores .descripcionDelJugador .infoDelJugador {
+  padding-left: 10px;
+}
+section .encuadro {
   margin: 100px;
   border: #B5911D solid 5px;
   border-radius: 10px;
 }
-main .encuadro .partido {
+section .encuadro .partido {
   text-align: center;
   font-size: 25px;
   text-decoration: underline;
   text-decoration-color: #B5911D;
 }
-main .encuadro .versus {
+section .encuadro .versus {
   display: flex;
   justify-content: center;
 }
-main .encuadro .versus .equiposEnfrentados {
+section .encuadro .versus .equiposEnfrentados {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-bottom: 20px;
 }
-main .encuadro .versus .equiposEnfrentados .nombresEquiposEnfrentados {
+section .encuadro .versus .equiposEnfrentados .nombresEquiposEnfrentados {
   font-size: 30px;
 }
-main .encuadro .versus .enfrentamiento {
+section .encuadro .versus .enfrentamiento {
   display: flex;
   justify-content: space-evenly;
   width: 30%;
   font-size: 25px;
   align-items: center;
 }
-main .encuadro .enfrentamientoInfo {
+section .encuadro .enfrentamientoInfo {
   display: flex;
   justify-content: space-evenly;
   font-size: 30px;
 }
-main .formulario {
+section .formulario {
   margin-left: 25%;
   margin-right: 25%;
 }
-main .formulario .consigna {
+section .formulario .consigna {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
   font-size: 20px;
 }
-main .formulario .campo {
+section .formulario .campo {
   display: block;
   width: 100%;
   margin-bottom: 10px;
@@ -301,7 +315,7 @@ main .formulario .campo {
   border-radius: 5px;
   font-size: 20px;
 }
-main .formulario .botonesFormulario .btnFormulario {
+section .formulario .botonesFormulario .btnFormulario {
   background-color: black;
   border: #B5911D solid 2px;
   color: rgb(206, 201, 201);
@@ -311,7 +325,7 @@ main .formulario .botonesFormulario .btnFormulario {
   margin: 10px;
   margin-left: 250px;
 }
-main .viasDeContacto {
+section .viasDeContacto {
   display: flex;
   justify-content: center;
   padding-top: 100px;
@@ -319,7 +333,7 @@ main .viasDeContacto {
   text-decoration-color: #B5911D;
   font-size: 30px;
 }
-main .viasContacto {
+section .viasContacto {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
@@ -376,102 +390,9 @@ main .viasContacto {
     padding-left: 10px;
     padding-right: 10px;
   }
-  main .noticia {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  main .noticia .img {
-    display: block;
-    width: 80%;
-    height: auto;
-    margin: 10px;
-  }
-  main .noticia .noticiaRecuadro .noticiaTitulo {
-    padding: 0;
-    padding-top: 20px;
-  }
-  main .noticia .noticiaRecuadro .noticiaCuerpo {
-    font-size: 15px;
-    margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  main .video {
-    margin-bottom: 70px;
-  }
-  main .video .videoUno {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: auto;
-    border: none;
-  }
-  main .video .videoDos {
-    display: none;
-  }
-  main .patrocinadores {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    justify-items: center;
-  }
-  main .patrocinadores .patrocinadoresImg {
-    width: 80%;
-    height: auto;
-  }
   main .promocion .promocionImg {
     width: 100%;
     height: auto;
-  }
-  main .seccionTienda {
-    display: block;
-    height: 80%;
-    height: auto;
-    margin-bottom: 0;
-    margin-left: 6%;
-    margin-right: 6%;
-  }
-  main .seccionTienda .carta {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  main .seccionTienda .carta .cartaInfo .cartaTitulo {
-    font-size: 30px;
-  }
-  main .seccionTienda .carta .cartaInfo .cartaPrecio {
-    font-size: 25px;
-  }
-  main .logoJuegos {
-    width: 100%;
-    height: auto;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  main .logoJuegos .logoValorant {
-    width: 100%;
-    height: auto;
-  }
-  main .logoJuegos .logoBrawl {
-    width: 100%;
-    height: auto;
-  }
-  main .jugadores {
-    display: block;
-    padding-left: 10px;
-  }
-  main .jugadores .descripcionDelJugador {
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  main .jugadores .descripcionDelJugador .fotoJugador {
-    width: 50%;
-    height: auto;
-  }
-  main .jugadores .descripcionDelJugador .infoDelJugador .listado {
-    padding: 0;
   }
   main .calendario {
     display: grid;
@@ -492,42 +413,144 @@ main .viasContacto {
     font-size: 20px;
     text-align: center;
   }
-  main .encuadro {
-    margin: 5%;
+  section .subtitulos {
+    font-size: 40px;
   }
-  main .encuadro .versus .equiposEnfrentados {
+  section .descripcion {
+    font-size: 15px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section .noticia {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section .noticia .img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 10px;
+  }
+  section .noticia .noticiaRecuadro .noticiaTitulo {
+    padding: 0;
+    padding-top: 20px;
+  }
+  section .noticia .noticiaRecuadro .noticiaCuerpo {
+    font-size: 15px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section .video {
+    margin-bottom: 70px;
+  }
+  section .video .videoUno {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border: none;
+  }
+  section .video .videoDos {
+    display: none;
+  }
+  section .patrocinadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  section .patrocinadores .patrocinadoresImg {
+    width: 80%;
+    height: auto;
+  }
+  section .seccionTienda {
+    display: block;
+    height: 80%;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  section .seccionTienda .carta {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  section .seccionTienda .carta .cartaInfo .cartaTitulo {
+    font-size: 30px;
+  }
+  section .seccionTienda .carta .cartaInfo .cartaPrecio {
+    font-size: 25px;
+  }
+  section .logoJuegos {
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  section .logoJuegos .logoValorant {
     width: 100%;
     height: auto;
   }
-  main .encuadro .versus .equiposEnfrentados .nombresEquiposEnfrentados {
+  section .logoJuegos .logoBrawl {
+    width: 100%;
+    height: auto;
+  }
+  section .jugadores {
+    display: block;
+    padding-left: 10px;
+  }
+  section .jugadores .descripcionDelJugador {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  section .jugadores .descripcionDelJugador .fotoJugador {
+    width: 50%;
+    height: auto;
+  }
+  section .jugadores .descripcionDelJugador .infoDelJugador .listado {
+    padding: 0;
+  }
+  section .encuadro {
+    margin: 5%;
+  }
+  section .encuadro .versus .equiposEnfrentados {
+    width: 100%;
+    height: auto;
+  }
+  section .encuadro .versus .equiposEnfrentados .nombresEquiposEnfrentados {
     font-size: 25px;
   }
-  main .encuadro .enfrentamientoInfo {
+  section .encuadro .enfrentamientoInfo {
     flex-direction: column;
     text-align: center;
     font-size: 20px;
   }
-  main .formulario {
+  section .formulario {
     margin: 0;
     width: 100%;
   }
-  main .formulario .consigna {
+  section .formulario .consigna {
     margin-left: 10%;
     margin-right: 10%;
   }
-  main .formulario .campo {
+  section .formulario .campo {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
   }
-  main .formulario .botonesFormulario {
+  section .formulario .botonesFormulario {
     display: flex;
     justify-content: space-evenly;
   }
-  main .formulario .botonesFormulario .btnFormulario {
+  section .formulario .botonesFormulario .btnFormulario {
     margin: 0;
   }
-  main .viasContacto {
+  section .viasContacto {
     margin-top: 15px;
     margin-bottom: 20px;
   }
@@ -568,46 +591,46 @@ main .viasContacto {
     width: 50%;
     height: auto;
   }
-  main .noticia .img {
+  section .noticia .img {
     width: 25%;
     height: auto;
   }
-  main .video .videoDos {
+  section .video .videoDos {
     display: none;
   }
-  main .seccionTienda {
+  section .seccionTienda {
     justify-content: space-evenly;
   }
-  main .seccionTienda .carta {
+  section .seccionTienda .carta {
     width: 300px;
   }
-  main .logoJuegos {
+  section .logoJuegos {
     width: 100%;
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
   }
-  main .logoJuegos .logoValorant {
+  section .logoJuegos .logoValorant {
     width: 100%;
     height: auto;
   }
-  main .logoJuegos .logoBrawl {
+  section .logoJuegos .logoBrawl {
     width: 70%;
     height: auto;
   }
-  main .jugadores {
+  section .jugadores {
     padding-left: 5%;
   }
-  main .encuadro .enfrentamientoInfo {
+  section .encuadro .enfrentamientoInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
   }
-  main .formulario .botonesFormulario {
+  section .formulario .botonesFormulario {
     display: flex;
     justify-content: space-evenly;
   }
-  main .formulario .botonesFormulario .btnFormulario {
+  section .formulario .botonesFormulario .btnFormulario {
     margin: 0;
   }
 }

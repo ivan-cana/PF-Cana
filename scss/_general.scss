@@ -1,6 +1,6 @@
 main {
 	background-color: $background-color_1;
-	padding-bottom: 1px;
+	padding-bottom: 50px;
 	z-index: 1;
 
 	/////// Inicio 
@@ -28,6 +28,54 @@ main {
 		border-top: 3px #B5911D ridge;
 	}
 
+	.subtitulos {
+		font-size: 80px;
+	}
+
+	.descripcion {
+		text-indent: 15px;
+		margin: 10px;
+		padding: 10px 40px;
+		font-size: 22px;
+	}
+
+	//////Tienda
+	//Promocion
+	.promocion {
+		display: flex;
+		justify-content: center;
+
+		.promocionImg {
+			width: 900px;
+			padding-bottom: 10px;
+		}
+	}
+
+	//////Eventos
+	// calendario
+	.calendario {
+		display: flex;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		justify-content: space-evenly;
+
+		.mes {
+			list-style: none;
+			font-size: 30px;
+			border: #B5911D 5px solid;
+			border-radius: 20%;
+			color: $color_2;
+			background-color: $background-color_4;
+			padding: 20px;
+		}
+	}
+}
+	
+section {
+	background-color: $background-color_1;
+	padding-bottom: 1px;
+	z-index: 1;
+
 	h2 {
 		margin: 0%;
 		padding-top: 40px;
@@ -47,7 +95,7 @@ main {
 		padding: 10px 40px;
 		font-size: 22px;
 	}
-
+	
 	//Noticias
 	.noticia {
 		display: flex;
@@ -108,17 +156,6 @@ main {
 	}
 
 	//////Tienda
-	//Promocion
-	.promocion {
-		display: flex;
-		justify-content: center;
-
-		.promocionImg {
-			width: 900px;
-			padding-bottom: 10px;
-		}
-	}
-
 	//Ropa y accesorios
 	.ropa {
 		margin-bottom: 50px;
@@ -190,7 +227,6 @@ main {
 	// Nuestros equipos
 	.logoJuegos {
 		text-align: center;
-		margin-top: 50px;
 		border-top: #B5911D solid 5px;
 
 		.logoValorant {
@@ -222,24 +258,6 @@ main {
 	}
 
 	//////Eventos
-	// calendario
-	.calendario {
-		display: flex;
-		padding-top: 40px;
-		padding-bottom: 40px;
-		justify-content: space-evenly;
-
-		.mes {
-			list-style: none;
-			font-size: 30px;
-			border: #B5911D 5px solid;
-			border-radius: 20%;
-			color: $color_2;
-			background-color: $background-color_4;
-			padding: 20px;
-		}
-	}
-
 	// Partidos
 	.encuadro {
 		margin: 100px;
@@ -342,4 +360,5 @@ main {
 	&:hover {
 		background-color: $background-color_3;
 	}
+
 }
